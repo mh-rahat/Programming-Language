@@ -26,7 +26,13 @@ int main() {
     printf("%f \n", 2.5 / 2.2);
 
 
+    // Operator Precedence 
+    int a2 = 4 + 9 * 10; 
+    printf("%d \n", a2);
 
+    // Associativity (left to right)
+    int a3 = 4 * 5 / 3 * 2; 
+    printf("%d \n", a3);
 
     return 0;
 }
