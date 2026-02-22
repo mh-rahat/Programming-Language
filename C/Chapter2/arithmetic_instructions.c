@@ -16,6 +16,16 @@ int main() {
     printf("%d \n", 15 % 6);
     printf("%d \n", -10 % 3);
 
+    // Type conversion 
+    printf("%d \n", 2 * 2);
+    printf("%f \n", 2 * 2.2);
+    printf("%f \n", 2.2 * 2.2);
+
+    printf("%d \n", 2 / 2);
+    printf("%f \n", 2 / 2.2);
+    printf("%f \n", 2.5 / 2.2);
+
+
 
 
     return 0;
