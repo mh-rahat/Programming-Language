@@ -8,7 +8,15 @@ int main() {
     int sum = a + b; 
     int multiply = a * b; 
     int power = (int) round(pow(a,b));
-    printf("%d", power);
+    printf("%d \n", power);
+
+    // for find out the reminder, then we have to use the modular operator (%)
+    printf("%d \n", 10 % 2);
+    printf("%d \n", 12 % 2);
+    printf("%d \n", 15 % 6);
+    printf("%d \n", -10 % 3);
+
+
 
     return 0;
 }
